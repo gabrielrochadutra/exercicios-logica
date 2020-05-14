@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação de notas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Avaliação de notas</h1>
+    </header>
+    <section>
+        <div>
+            <p>Nome do aluno:
+                <input type="text" name="nome" id="txta">
+            </p>
+            <p>Nota 1º semestre:
+                <input type="number" name="nota1" id="txtn1">
+            </p>
+            <p>Nota do 2º semestre:
+                <input type="number" name="nota2" id="txtn2">
+            </p>
+            <p>
+                <input type="button" value="Fazer Avaliação" onclick="avaliar()">
+            </p>
+        </div>
+        <div id="res">
+            Preparando avaliação...
+        </div>
+    </section>
+    <footer>
+        <p>Criado com ❤️ por Gabriel Dutra</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>

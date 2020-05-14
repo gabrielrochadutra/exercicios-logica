@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de consumo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de consumo</h1>
+    </header>
+    <section>
+        <div>
+            <p> Distância percorrida em KM:
+                <input type="number" name="distancia" id="txtd">
+            </p>
+            <p>  Quantidade de combustível utilizada em L:
+                <input type="number" name="combustivel" id="txtc">
+            </p>
+            <p>
+                <input type="button" value="Calcular Consumo" onclick="calculaConsumo()">
+            </p>
+        </div>
+        <div id="res">
+            Calculando consumo médio do veículo...
+        </div>
+    </section>
+    <footer>
+        <p>Criado com ❤️ por Gabriel Dutra</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>

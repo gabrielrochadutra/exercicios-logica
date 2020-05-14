@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Área</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Área</h1>
+    </header>
+    <section>
+        <div>
+            <p> Digite a largura do terreno:
+                <input type="number" name="largura" id="txtl">
+            </p>
+            <p> Digite o comprimento do terreno:
+                <input type="number" name="comprimento" id="txtc">
+            </p>
+            <p> Digite o valor do metro quadrado (R$):
+                <input type="number" name="valor" id="txtv">
+            </p>
+            <p>
+                <input type="button" value="calcular" onclick="calculaArea()">
+            </p>
+        </div>
+        <div id="res">
+            Calculando...
+        </div>
+    </section>
+    <footer>
+        <p>Criado com ❤️ por Gabriel Dutra</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Honorários</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Honorários</h1>
+    </header>
+    <section>
+        <div>
+            <p>Nome do funcionário:
+                <input type="text" name="nome" id="txtn">
+            </p>
+            <p>Valor hora unitária (R$):
+                <input type="number" name="valorhora" id="txtv">
+            </p>
+            <p>Quantidade de horas trabalhadas no período:
+                <input type="number" name="quantidade" id="txtq">
+            </p>
+            <p>
+                <input type="button" value="calcular" onclick="calcular()">
+            </p>
+        </div>
+        <div id="res">
+            Calculando honorários a pagar...
+        </div>
+    </section>
+    <footer>
+        <p>Criado com ❤️ por Gabriel Dutra</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
